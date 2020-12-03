@@ -2,7 +2,8 @@ name: Go Publish Release
 
 on:
   release:
-    types: [created]
+    types:
+      - created
 
 jobs:
   releases-matrix:

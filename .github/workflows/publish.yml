@@ -3,7 +3,7 @@ name: Go Publish Release
 on:
   release:
     types:
-      - created
+      - published
 
 jobs:
   releases-matrix:

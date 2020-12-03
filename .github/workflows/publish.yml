@@ -1,3 +1,5 @@
+name: Go Publish Release
+
 on:
   release:
     types: [created]

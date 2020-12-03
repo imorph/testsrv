@@ -1,23 +1,33 @@
 # testsrv service
 
+Test http service.
 Will listen on :8080
 
-Paths available:
+## Build
+
+```
+go build
+```
+
+## Run
+
+./testsrv
+
+## Paths available
 
 * /
 * /articles
 * /metrics
 
-## /
+### /
 
 will print "Welcome!"
 
-## /articles
+### /articles
 
 google search for "ansible+articles"
 
-## /metrics
+### /metrics
 
 Prometheus formatted metrics for application
-
 

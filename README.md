@@ -5,19 +5,21 @@ Will listen on :8080
 
 ## Build
 
-```
+```shell
 go build
 ```
 
 ## Run
 
+```shell
 ./testsrv
+```
 
 ## Paths available
 
-* /
-* /articles
-* /metrics
+* `/`
+* `/articles`
+* `/metrics`
 
 ### /
 
@@ -25,7 +27,7 @@ will print "Welcome!"
 
 ### /articles
 
-google search for "ansible+articles"
+google results for search: "ansible+articles"
 
 ### /metrics
 
